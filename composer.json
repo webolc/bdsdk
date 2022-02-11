@@ -1,0 +1,19 @@
+{
+    "name": "webolc/bdsdk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "webolc",
+            "email": "516705893@qq.com"
+        }
+    ],
+    "require": {
+    	"baidu/aip-sdk": "^2.2"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+    	"psr-4": {
+      		"webolc\\bdsdk\\": "src/"
+    	}
+  	}
+}
